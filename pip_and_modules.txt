@@ -1,0 +1,262 @@
+# PIP & Modules in Python
+
+# Module Kya Hota Hai?
+
+# Module ek Python file (.py) hoti hai jisme Python code likha hota hai.
+# Har .py file automatically ek module hoti hai.
+
+# Example:
+#
+# calculator.py
+# math.py
+# student.py
+#
+# Ye sab modules hain.
+
+
+# Module Import Karna
+
+# Kisi module ko use karne ke liye 'import' keyword use karte hain.
+
+import math
+
+print(math.sqrt(25))        # Square Root
+print(math.pi)              # Pi ki value
+
+# math ek Built-in Module hai.
+# Ye Python ke sath hi install hota hai.
+
+
+# Built-in Modules
+
+# Built-in modules wo hote hain jo Python ke sath already aate hain.
+
+# Examples:
+#
+# math
+# random
+# os
+# sys
+# datetime
+# json
+# time
+
+# Inhe install karne ki zarurat nahi hoti.
+
+import random
+
+print(random.randint(1, 10))    # Random number between 1 and 10
+
+
+# User Defined Modules
+
+# User Defined Module wo hota hai jo tum khud banate ho.
+
+# Example:
+
+# calculator.py
+
+# def add(a, b):
+#     return a + b
+
+# def sub(a, b):
+#     return a - b
+
+
+# Phir doosri file mein:
+
+# import calculator
+#
+# print(calculator.add(10, 20))
+
+# Output:
+# 30
+
+
+# Third Party Modules
+
+# Third Party Modules Python ke sath nahi aate.
+
+# Internet se install karne padte hain.
+
+# Examples:
+#
+# requests
+# numpy
+# pandas
+# flask
+# django
+# pygame
+
+
+# PIP Kya Hai?
+
+# PIP = Pip Installs Packages
+
+# PIP Python ka Package Manager hai.
+
+# Jaise:
+
+# Android  -> Play Store
+# JavaScript -> npm
+# Python -> pip
+
+# PIP ka kaam hai internet se packages install karna.
+
+
+# Common PIP Commands
+
+# Package Install
+
+# pip install requests
+
+# Package Upgrade
+
+# pip install --upgrade requests
+
+# Package Uninstall
+
+# pip uninstall requests
+
+# Installed Packages Dekhna
+
+# pip list
+
+# Kisi Package ki Information
+
+# pip show requests
+
+
+# Package vs Module
+
+# Module
+#
+# Ek single Python file.
+#
+# Example:
+#
+# calculator.py
+
+
+# Package
+#
+# Multiple modules ka folder.
+#
+# Example:
+#
+# numpy/
+#    core.py
+#    random.py
+#    linalg.py
+#    fft.py
+
+
+# Import Different Ways
+
+# Complete Module Import
+
+import math
+
+print(math.factorial(5))
+
+
+# Specific Function Import
+
+from math import sqrt
+
+print(sqrt(64))
+
+
+# Alias Banana
+
+import math as m
+
+print(m.pi)
+
+# Isi tarah:
+
+# import numpy as np
+# import pandas as pd
+
+
+# Python Module Search Karta Kahan Hai?
+
+# Jab tum likhte ho:
+
+# import math
+
+# Python pehle check karta hai:
+
+# 1. Current Folder
+# 2. Python Standard Library
+# 3. Installed Packages (site-packages)
+
+# Agar module kahin nahi mila to error aata hai:
+
+# ModuleNotFoundError
+
+
+# Real Life Example
+
+# Socho tum ghar bana rahe ho.
+
+# Har cheez khud banana mushkil hai.
+
+# Isliye market se ready-made cheezen le aate ho.
+
+# Doors
+# Windows
+# Lights
+# Tiles
+
+# Programming mein bhi aisa hi hota hai.
+
+# Har functionality khud nahi likhte.
+
+# Ready-made packages install karte hain.
+
+# Jaise:
+
+# requests
+# numpy
+# pandas
+# django
+# flask
+
+
+# Summary
+
+# Module
+# 👉 Ek Python (.py) file.
+
+# Package
+# 👉 Multiple modules ka folder.
+
+# Built-in Module
+# 👉 Python ke sath already aata hai.
+
+# User Defined Module
+# 👉 Jo tum khud banate ho.
+
+# Third Party Module
+# 👉 Internet se install hota hai.
+
+# PIP
+# 👉 Python ka Package Manager.
+
+# import
+# 👉 Module ko use karne ke liye.
+
+# pip install
+# 👉 Package install karne ke liye.
+
+
+# Recommended Learning Order
+
+# 1. Module kya hota hai?
+# 2. import keyword
+# 3. Built-in Modules (math, random, os)
+# 4. Apna khud ka module banana
+# 5. pip install
+# 6. Third Party Packages (requests, numpy, pandas)
+# 7. Virtual Environment (venv)

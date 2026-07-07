@@ -1,0 +1,387 @@
+# Why do we use python3 and pip3 in Linux?
+
+# Ye beginners ka sabse common confusion hota hai.
+
+# Question:
+#
+# Agar Python install hai to:
+#
+# python3 file.py
+#
+# aur
+#
+# pip3 install requests
+#
+# hi kyun likhte hain?
+#
+# Sirf
+#
+# python
+#
+# ya
+#
+# pip
+#
+# kyun nahi?
+#
+# Is file mein isi ko detail mein samajhte hain.
+
+
+# Python ki History
+
+# Python ke do major versions hain.
+
+# Python 2
+# Python 3
+
+# Python 2 bohot purana version tha.
+
+# Python 3 uska upgraded version hai.
+
+# Dono mein kaafi differences thay.
+
+# Isi wajah se Python 2 aur Python 3
+# dono ko ek hi system mein install kiya ja sakta tha.
+
+
+# Example
+
+# Python 2
+
+# python
+
+# Python 3
+
+# python3
+
+
+# Isi tarah
+
+# Python 2 Package Manager
+
+# pip
+
+# Python 3 Package Manager
+
+# pip3
+
+# Is naming ka reason compatibility tha.
+
+# Matlab agar kisi system mein Python 2 aur Python 3
+# dono installed hon to confusion na ho.
+
+
+# Why python3 on Linux?
+
+# Linux distributions jaise:
+
+# Ubuntu
+# Debian
+# Linux Mint
+# Kali Linux
+
+# Bohot saalon tak Python 2 ko system scripts ke liye use karti rahi hain.
+
+# Example
+
+# python
+
+# Python 2
+
+# python3
+
+# Python 3
+
+# Isi liye Linux mein developers ko explicitly batana padta tha
+# ke kis version ko use karna hai.
+
+# python3
+
+# ya
+
+# python
+
+
+# Aaj Kal Kya Hota Hai?
+
+# Modern Linux distributions mein
+# Python 2 almost khatam ho chuka hai.
+
+# Lekin bohot si distributions ab bhi
+# compatibility ki wajah se
+
+# python3
+
+# command use karti hain.
+
+# Matlab
+
+# python3 script.py
+
+# ye bilkul normal baat hai.
+
+
+# pip3 Kyun?
+
+# Bilkul same reason.
+
+# pip
+
+# pehle Python 2 ka package manager tha.
+
+# pip3
+
+# Python 3 ka package manager.
+
+# Example
+
+# pip3 install requests
+
+# Matlab
+
+# Python 3 ke liye requests package install karo.
+
+
+# Kaise Check Karein?
+
+# Python Version
+
+# python3 --version
+
+# Example Output
+
+# Python 3.12.3
+
+
+# Pip Version
+
+# pip3 --version
+
+# Example Output
+
+# pip 24.1 from ...
+
+
+# Windows Mein Kya Hota Hai?
+
+# Windows par jab Python install karte ho
+# aur installation ke time
+
+# Add Python to PATH
+
+# tick kar dete ho.
+
+# To generally
+
+# python
+
+# hi Python 3 ko point karta hai.
+
+# Isi liye Windows users zyada tar likhte hain
+
+# python file.py
+
+# aur
+
+# pip install requests
+
+# Unhe python3 ya pip3 likhne ki zarurat nahi padti.
+
+
+# macOS Mein Kya Hota Hai?
+
+# Ye macOS version aur installation method par depend karta hai.
+
+# Purane macOS versions mein
+
+# python
+
+# Python 2 hota tha.
+
+# python3
+
+# Python 3 hota tha.
+
+# New macOS versions mein Apple ne Python 2 remove kar diya hai.
+
+# Agar tum Python Homebrew ya official installer se install karte ho
+
+# To aksar
+
+# python3
+
+# aur
+
+# pip3
+
+# commands use hoti hain.
+
+# Kuch users alias bana lete hain.
+
+# alias python=python3
+# alias pip=pip3
+
+# Phir sirf
+
+# python
+
+# aur
+
+# pip
+
+# likhne se bhi kaam ho jata hai.
+
+
+# Linux Mein Sirf python Likho To?
+
+# Ye distribution par depend karta hai.
+
+# Kuch systems mein
+
+# python
+
+# command hoti hi nahi.
+
+# Output
+
+# command not found
+
+# Aur kuch systems mein
+
+# python
+
+# automatically
+
+# python3
+
+# ko point karti hai.
+
+
+# Mere System Mein Kya Hai?
+
+# Check karne ke liye
+
+# which python
+# which python3
+# which pip
+# which pip3
+
+# Ya
+
+# python --version
+# python3 --version
+# pip --version
+# pip3 --version
+
+
+# Kya Main Sirf python Use Kar Sakta Hoon?
+
+# Haan.
+
+# Agar alias bana do.
+
+# ~/.bashrc
+
+# ya
+
+# ~/.zshrc
+
+# mein ye likho.
+
+# alias python=python3
+# alias pip=pip3
+
+# Terminal restart karo.
+
+# Ab
+
+# python
+
+# automatically
+
+# python3
+
+# ban jayega.
+
+# Aur
+
+# pip
+
+# automatically
+
+# pip3
+
+# ban jayega.
+
+
+# Future Mein Kya Hoga?
+
+# Python 2 officially January 2020 mein End Of Life ho chuka hai.
+
+# Isliye aaj lagbhag sari development
+
+# Python 3
+
+# par hoti hai.
+
+# Bohot se systems ab
+
+# python
+
+# ko hi
+
+# python3
+
+# bana rahe hain.
+
+# Lekin compatibility ki wajah se
+# bohot jagah
+
+# python3
+
+# abhi bhi use hota hai.
+
+
+# Summary
+
+# Python 2 -> Old Version (Deprecated)
+
+# Python 3 -> Current Version (Use This)
+
+# python3 -> Python 3 Run Karne Ke Liye
+
+# pip3 -> Python 3 Packages Install Karne Ke Liye
+
+# Linux:
+# Mostly python3 aur pip3 use hote hain.
+
+# Windows:
+# Mostly python aur pip use hote hain.
+
+# macOS:
+# Installation method par depend karta hai.
+
+# Virtual Environment activate hone ke baad
+
+# python
+
+# aur
+
+# pip
+
+# automatically usi environment ko use karte hain.
+
+
+# Best Practice (2026)
+
+# Linux
+# python3 file.py
+# pip3 install package
+
+# Windows
+# python file.py
+# pip install package
+
+# Virtual Environment
+# python file.py
+# pip install package
