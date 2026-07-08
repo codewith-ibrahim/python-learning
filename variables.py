@@ -8,6 +8,90 @@
 # Python mein recommended style = snake_case
 
 
+# ------------------------ Case Sensitivity ------------------------
+
+# Python Case Sensitive hai!
+# Iska matlab:
+# Chhotay (lowercase) aur baray (uppercase) letters mein farq hota hai.
+
+Ibrahim = "BSCS Student"
+ibrahim = "Software Engineer"
+IBRAHIM = "Python Developer"
+
+print(Ibrahim)     # BSCS Student
+print(ibrahim)     # Software Engineer
+print(IBRAHIM)     # Python Developer
+
+# Yeh teeno ALAG ALAG variables hain!
+# Kyun?
+# Kyunke Python case sensitive hai.
+
+# Example:
+name = "Shaikh"
+Name = "Ibrahim"
+NAME = "Ahmed"
+
+print(name)    # Shaikh
+print(Name)    # Ibrahim
+print(NAME)    # Ahmed
+
+# Summary:
+# name, Name, aur NAME teeno different variables hain.
+# Python inhe ek jaisa nahi samjhta.
+
+
+# ⚠️ Common Confusion (Zaroor Padhein!)
+
+# Kuch beginners sochte hain ke:
+
+# IBRAHIM = "Python Developer"
+
+# Ye CONSTANT hai.
+
+# Lekin aisa NAHI hai!
+
+# Sirf UPPER_CASE mein likhne se koi variable CONSTANT nahi ban jata.
+
+# IBRAHIM = "Python Developer"  ← Ye sirf case sensitivity ka example hai
+# Iske andar koi bhi value change kar sakte hain.
+
+IBRAHIM = "Python Developer"
+print(IBRAHIM)        # Python Developer
+
+IBRAHIM = "Java Developer"    # ✅ Bilkul change ho sakta hai!
+print(IBRAHIM)        # Java Developer
+
+# Matlab:
+# UPPER_CASE naam =/= Constant
+
+# Python actually CONSTANT ko support nahi karta.
+
+# UPPER_CASE naam sirf ek CONVENTION hai.
+
+# Convention ka matlab:
+# Sab developers aapas mein agree karte hain ke
+# UPPER_CASE wale variables ko change nahi karenge.
+
+# Example of Real Constants (By Convention):
+
+PI = 3.14159           # Math constant
+MAX_USERS = 100        # Limit constant
+DATABASE_URL = "mysql://localhost"   # Config constant
+
+# Inhe change kar sakte hain? Haan!
+# Karna chahiye? Nahi! ❌
+# Kyun? Convention follow karna best practice hai.
+
+# Summary:
+
+# IBRAHIM = "Python Developer"      ← Normal variable (Case sensitivity example)
+# PI = 3.14159                       ← Constant (By convention, change nahi karte)
+
+# Dono UPPER_CASE mein hain, lekin purpose alag hai!
+
+
+# ------------------------ Good Variable Names ------------------------  
+
 # ✅ Good Variable Names (Recommended)
 
 first_name = "Ibrahim"         # Snake Case ✅
@@ -86,6 +170,12 @@ print(employee_salary)
 # Functions  -> snake_case ✅
 # Classes    -> PascalCase ✅
 # Constants  -> UPPER_CASE ✅
+
+# Python is Case Sensitive!
+# Ibrahim, ibrahim, IBRAHIM teeno alag variables hain.
+
+# UPPER_CASE mein likhne se koi variable CONSTANT nahi ban jata.
+# Constant sirf ek CONVENTION hai, Python actually ise enforce nahi karta.
 
 
 # ------------------------ Data Types ------------------------  
@@ -170,7 +260,8 @@ print(o)
 
 
 
-# Type Casting
+# ------------------------ Type Casting ------------------------
+
 p = "5"                # String (Text)
 print(p)
 
