@@ -1,0 +1,15 @@
+# ------------------------ Quick Quiz 1 ------------------------
+# Write a Python program that asks the user to enter a number.
+# If the number is between 1 and 10 (inclusive), print its multiplication table.
+# Otherwise, display an appropriate message indicating that only numbers from 1 to 10 are allowed.
+
+
+# ------------------------ Quick Quiz 2 ------------------------
+# Write a Python program that asks the user to enter their percentage.
+# Calculate and display the corresponding grade using match-case with guards.
+# Handle invalid percentages (less than 0 or greater than 100) appropriately.
+
+# ------------------------ Quick Quiz 3 ------------------------
+# Write a Python program that asks the user to enter the name of a day.
+# Using match-case, display the scheduled activity for that day.
+# If the entered day is invalid, display an appropriate error message.
