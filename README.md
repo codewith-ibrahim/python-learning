@@ -36,6 +36,7 @@ Ye poori repository structural folders mein divided hai taake aap har topic ko s
 *   `8.functions_practice/` — Functions ki coding exercises.
 *   `9.try_except.py` — Errors aur exceptions ko crash-free handle karna.
 *   `10.indentation.py` — Python ke blocks aur spacing rules.
+*   `11.file_handling.py` — Files ko read, write aur append karne ka tareeqa.
 
 ### 📁 4. Data Structures (`data_structures/`)
 *   `1.list_and_methods.py` — Ordered collections aur unke built-in methods.
@@ -44,7 +45,14 @@ Ye poori repository structural folders mein divided hai taake aap har topic ko s
 *   `4.sets_theory.txt` — Sets ki theoretical concepts.
 *   `5.dictionary_and_methods.py` — Key-Value pairs ka data store karna.
 
-### 📁 5. Documentation (`documentation/`)
+### 📁 5. Object-Oriented Programming (`oop_concepts/`)
+*   `1.classes_and_objects.py` — OOP ke basic building blocks (Classes & Objects).
+*   `2.constructors_and_self.py` — `__init__` constructor aur `self` keyword ka use.
+*   `3.inheritance.py` — Code reusability aur parent-child classes.
+*   `4.polymorphism.py` — Method overriding aur dynamic behavior.
+*   `5.encapsulation_and_abstraction.py` — Data hiding aur secure access modifiers.
+
+### 📁 6. Documentation (`documentation/`)
 *   `common_confusions.txt` — Python seekhte waqt aane wali common mistakes aur unke solutions.
 *   `README.md` — Is repository ka guide map.
 

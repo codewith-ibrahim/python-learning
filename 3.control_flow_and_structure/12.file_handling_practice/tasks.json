@@ -1,0 +1,22 @@
+[
+    {
+        "task": "Learn Python",
+        "completed": true,
+        "priority": "High"
+    },
+    {
+        "task": "Build Project",
+        "completed": false,
+        "priority": "High"
+    },
+    {
+        "task": "Practice DSA",
+        "completed": false,
+        "priority": "Medium"
+    },
+    {
+        "task": "Read Documentation",
+        "completed": true,
+        "priority": "Low"
+    }
+]

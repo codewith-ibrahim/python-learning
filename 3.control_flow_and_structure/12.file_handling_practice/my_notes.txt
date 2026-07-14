@@ -1,0 +1,11 @@
+📅 Date: 14th July 2026
+📝 Topic: Python File Handling
+⏰ Time: 2:00 PM
+──────────────────────────────
+
+📌 NEW NOTES (Appended):
+──────────────────────────────
+✅ Completed: Text file writing
+✅ Completed: Text file reading
+✅ Completed: Text file appending
+✅ Learning: with statement is best!

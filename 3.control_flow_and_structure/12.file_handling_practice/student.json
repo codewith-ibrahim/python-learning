@@ -1,0 +1,18 @@
+{
+    "name": "Shaikh Muhammad Ibrahim",
+    "age": 22,
+    "city": "Karachi",
+    "skills": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS"
+    ],
+    "education": {
+        "degree": "BSCS",
+        "university": "Your University",
+        "year": 2026
+    },
+    "is_learning": true,
+    "projects": 5
+}
