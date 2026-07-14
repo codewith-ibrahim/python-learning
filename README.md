@@ -54,7 +54,19 @@ Ye poori repository structural folders mein divided hai taake aap har topic ko s
 
 ### 📁 6. Documentation (`documentation/`)
 *   `common_confusions.txt` — Python seekhte waqt aane wali common mistakes aur unke solutions.
+*   `env_file_explained.txt` — Environment variables aur sensitive data ko secure rakhne ka tareeqa.
+*   `virtual_environment_explained.txt` — Virtual environments (`venv`) ki zaroorat aur settings.
+*   `requirements_explained.txt` — Dependencies/libraries ko track karne ke liye requirements file ka use.
+*   `gitignore_explained.txt` — Git repository se unnecessary files ko ignore karne ka tarika.
 *   `README.md` — Is repository ka guide map.
+
+### 📁 7. Projects (`projects/`)
+*   #### 📁 `weather_app/`
+    *   `main.py` — Weather app ka main functional script.
+    *   `project_explained.txt` — Is project ki line-by-line detailed explanation.
+    *   `.env` — Environment variables config.
+    *   `.gitignore` — Ignore files settings.
+    *   `requirements.txt` — App dependencies.
 
 ---
 
